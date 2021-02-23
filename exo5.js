@@ -20,6 +20,7 @@ class Point {
         return `Point(${this.x}, ${this.y})`;
     }
 }
+module.exports = Point;
 //Test 
 let point = new Point(2, 4);
 console.log(point.toString());
